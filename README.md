@@ -27,7 +27,7 @@ A **Factur-X** invoice is a **PDF/A-3 with a structured XML (CII) embedded insid
 ## 2. Architecture overview
 
 ```mermaid
-flowchart LR
+flowchart TB
     U[User / accounting firm / API client] --> WEB[Next.js webapp]
     U --> APIK[Public API<br/>API keys]
 
